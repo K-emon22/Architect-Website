@@ -10,6 +10,7 @@ body{
 }
 header{
   background-color:rgb(247, 196, 196);
+
 }
 
   /* header section */
@@ -21,12 +22,20 @@ position: sticky;
 top: 0;
 background-color:rgb(247, 196, 196);
 
+
 }
 .nav-bar {
 list-style-type:none;
 display: flex;
 gap: 50px;
 margin-top: 63px;
+
+}
+
+.nav-bar a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
 .arc{
   margin-top: 50px;
@@ -60,7 +69,7 @@ margin-top: 63px;
   height: 26px;
   text-align: center;
   margin-top: 0px;
-
+color: rgb(114, 114, 114);
 }
 .header-button{
   height: 64px;
@@ -91,7 +100,10 @@ padding: 10px;
 margin-top: 53px;
 gap: 10px;
 
+
 }
+
+
 body{margin: 0px;}
 
 
@@ -219,4 +231,153 @@ padding: 5px;
 
 
 
+/* main style */
 
+
+.first-main-1{
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+}
+
+.first-main{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+gap: 76px;
+
+padding: 50px;
+
+
+}
+
+.feature{
+
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+
+text-align: left;
+margin-bottom: 30px;
+
+}
+
+
+
+.main-p{
+  margin-top: 0px;
+color: rgb(114, 114, 114);
+text-align: justify;
+margin-bottom: 0px;
+}
+
+.main-first-button{
+margin-top: 0px;
+  height: 64px;
+  width: 180px;
+  border: 2px solid black;
+  background-color: orange;
+  border-radius: 10px;
+color: white;
+font-weight: 900;
+font-size: 16px;
+margin-top: 30px;
+margin-bottom: 30px;
+padding: 10px;
+
+}
+
+
+.first-main-2{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+
+
+/* for small device */
+
+
+@media screen and (max-width:576px) {
+
+  body{margin: 0px;}
+
+ 
+  .first-main{ 
+
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  gap: 0px;
+  
+  padding: 0px;
+
+  
+  }
+  
+
+  .feature{
+
+    font-size: 45px;
+    font-weight: 700;
+
+    
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    }
+    
+
+
+  .first-main-1{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+
+
+  }
+
+
+
+
+  .first-main-1 img {
+    width: 100%;   
+    height: auto;  
+  }
+
+  
+  .main-p{
+
+margin-left: 10%;
+margin-right: 10%;
+  text-align: justify;
+width: 80%;
+
+
+
+
+  }
+  
+  .main-first-button{
+
+
+    height: 32px;
+    width: 90px;
+    border: 2px solid black;
+    background-color: orange;
+    border-radius: 10px;
+  color: white;
+  font-weight: 450;
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding: 5px;
+
+
+margin-left: 175%;
+    }
+
+      }
