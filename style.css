@@ -5,11 +5,14 @@
   }
   
 body{
-  max-width: 1280px;
-  margin: 50px 100px;
+ 
+
 }
+
+
 header{
-  background-color:rgb(247, 196, 196);
+  background-color: rgba(255, 144, 14, 0.1);
+  ;
 
 }
 
@@ -20,7 +23,11 @@ header{
 
 position: sticky;
 top: 0;
-background-color:rgb(247, 196, 196);
+background-color:rgba(255, 144, 14, 1);
+
+
+border-radius: 10px 10px 0 0px;
+
 
 
 }
@@ -28,7 +35,8 @@ background-color:rgb(247, 196, 196);
 list-style-type:none;
 display: flex;
 gap: 50px;
-margin-top: 63px;
+margin-top: 31.5px;
+
 
 }
 
@@ -38,7 +46,7 @@ margin-top: 63px;
   font-weight: 500;
 }
 .arc{
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .banner{
@@ -85,6 +93,10 @@ margin-bottom: 30px;
 padding: 10px;
 }
 
+
+
+
+
 @media screen and (max-width:576px) {
 
   .nav{
@@ -99,12 +111,14 @@ padding: 10px;
 
 margin-top: 53px;
 gap: 10px;
-
-
+margin-top: 31.5px;
+  
+  
+  
 }
 
 
-body{margin: 0px;}
+body{margin: 0%;}
 
 
 .header-h1{
@@ -377,7 +391,335 @@ width: 80%;
   padding: 5px;
 
 
-margin-left: 175%;
+
+    }
+
+
+    .first-main-2 {
+      align-items: center;
+
     }
 
       }
+
+
+
+
+
+      @media screen and (min-width:576px) and (max-width:992px) {
+
+        body{margin: 0%;}
+      
+       
+        .first-main{ 
+      
+          margin-top: 30px;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+        gap: 0px;
+        
+        padding: 0px;
+      
+        
+        }
+        
+      
+        .feature{
+      
+          font-size: 45px;
+          font-weight: 700;
+      
+          
+          text-align: justify;
+          margin-left: 20%;
+          margin-right: 20%;
+          
+          }
+          
+      
+      
+        .first-main-1{
+      
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          gap: 20px;
+      
+      
+        }
+      
+      
+      
+      
+        .first-main-1 img {
+          width: 100%;   
+          height: auto;  
+        }
+      
+        
+        .main-p{
+      
+      margin-left: 10%;
+      margin-right: 10%;
+        text-align: center;
+      width: 80%;
+      
+      
+      
+      
+        }
+        
+        .main-first-button{
+      
+      
+          height: 32px;
+          width: 90px;
+          border: 2px solid black;
+          background-color: orange;
+          border-radius: 10px;
+        color: white;
+        font-weight: 450;
+        font-size: 12px;
+        margin-bottom: 20px;
+        padding: 5px;
+      
+      
+ 
+          }
+          .first-main-2 {
+            align-items: center;
+
+          }
+      
+            }
+
+            /* section 1 done  */
+
+
+            /* section 2  */
+
+          .section-2{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 100px;
+        
+          }
+.section-g1-h2{ 
+
+font-size: 45px;
+font-weight: 800;
+width: 468px;
+height: 106px;
+margin-bottom: 24px;
+border-left: 10px solid orange;
+border-radius: 5px;
+padding-left: 15px;
+
+
+}
+
+.section-g1-p{
+  margin-top: 0px;
+  /* color: rgb(114, 114, 114); */
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+text-align: justify;
+
+}
+
+
+.section2-g1-2{
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
+  
+  
+}
+
+.section2-g1{
+  padding: 40PX;
+  /* border: 2px solid black; */
+  height: 800px;
+
+}
+.sec-2-img{
+  /* margin-top: 50px; */
+  width: 100%;   
+  height: 850px; 
+}
+
+.box{ 
+
+  /* border: 2px solid red; */
+  padding: 9px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 1px whitesmoke, 0px -4px 5px rgb(72, 72, 72);
+}
+
+.sec2-button{ 
+  position: relative;
+height: 150px;
+  width: 250px;
+  border: 2px solid black;
+  background-color: orange;
+  border-radius: 10px;
+color: white;
+font-size: 20px;
+bottom: 90px;
+margin-top: 0px;
+right: 100px;
+
+}
+.ten{
+  font-weight: 900;
+  font-size: 40px;
+  
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+/* small  device  */
+@media screen and (max-width:576px) {
+
+
+  
+  .section-2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 0px;
+
+  }
+.section-g1-h2{ 
+
+
+
+width: 100%;
+height: 100%;
+
+}
+
+
+
+
+.section2-g1-2{
+/* border: 2px solid black; */
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 10px;
+
+
+}
+
+
+.sec-2-img{
+margin-top: 150px;
+width: 100%;   
+height: 400px; 
+
+}
+
+
+.sec2-button{ 
+  position: relative;
+
+
+
+bottom: 0px;
+margin-top: 0px;
+right: 0px;
+
+
+
+
+
+height: 32px;
+width: 30%;
+border: 2px solid black;
+background-color: orange;
+border-radius: 10px;
+color: white;
+font-weight: 450;
+font-size: 12px;
+left: 35%;
+right: 35%;
+
+}
+
+.ten{
+  font-weight: 700;
+  font-size: 12px;
+  
+}}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+
+
+
+
+
+/* section 999 */
+
+
+.this-main2{
+display: flex;
+justify-content: center;
+gap: 100px;
+
+}
+.boxs{
+  display: flex;
+  flex-direction: column;
+  
+  border: 2px solid orange;
+align-items: center;
+width: 300px;
+padding: 10px;
+border-radius: 10px;
+}
+
+.this-main{
+  padding: 50px;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+
+  .this-main{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    padding: 0px;
+  }
+  
+  .this-main2{
+    display: grid;
+   grid-template-rows: repeat(1,1fr);
+    gap: 20px;
+    
+    }
+
+    .this-main1{
+   display: flex;
+   flex-direction: column;
+padding: 40px;
+      
+      }
+
+
+
+
+
+
+
+}
